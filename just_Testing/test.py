@@ -1,4 +1,4 @@
-from app import index
+from app import printing
 import pytest
 def test_index():
-	assert index() == "hello world"
+	assert printing() == "hello world"
