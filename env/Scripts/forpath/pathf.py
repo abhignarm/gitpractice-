@@ -1,5 +1,6 @@
-import pathlib, sys
+import pathlib,sys
 import pytest
 cwd = pathlib.Path.cwd()
-sys.path.appeend(tr(cwd.src))
+import os,pathlib
+os.chdir(pathlib.Path.cwd()/'tests')
 pytest.main()
