@@ -34,5 +34,5 @@ jobs:
     - name: Test with pytest
       run: |
       
-        cd gitpractice-/env/Scripts/src/
+        pwd
         pytest
